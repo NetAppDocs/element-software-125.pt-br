@@ -2,7 +2,7 @@
 permalink: storage/task-element-replication-enable-snapmirror-source-volume.html 
 sidebar: sidebar 
 keywords: enable, snapmirror, element, source, volume 
-summary: Você deve habilitar o SnapMirror no volume de origem do elemento antes de criar uma relação de replicação. Você pode executar esta tarefa somente na IU da Web do software Element. 
+summary: Você deve habilitar o SnapMirror no volume de origem do elemento antes de criar uma relação de replicação. Você só pode executar essa tarefa na IU da Web do software Element ou usando os métodos de API. 
 ---
 = Ative o SnapMirror no volume de origem do elemento
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: Você deve habilitar o SnapMirror no volume de origem do elemento antes
 
 
 [role="lead"]
-Você deve habilitar o SnapMirror no volume de origem do elemento antes de criar uma relação de replicação. Você pode executar esta tarefa somente na IU da Web do software Element.
+Você deve habilitar o SnapMirror no volume de origem do elemento antes de criar uma relação de replicação. Você só pode executar essa tarefa na IU da Web do software Element ou usando os link:../api/reference_element_api_modifyvolume.html["Modifyvolume"]métodos e link:../api/reference_element_api_modifyvolumes.html["ModifyVolumes"] API.
 
 .Antes de começar
 * Você deve ter ativado o SnapMirror no cluster do Element.

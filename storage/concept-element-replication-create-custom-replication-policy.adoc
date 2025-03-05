@@ -2,7 +2,7 @@
 permalink: storage/concept-element-replication-create-custom-replication-policy.html 
 sidebar: sidebar 
 keywords: ontap, cli, create, custom, replication, policy, relationship, 
-summary: Você pode criar uma política de replicação personalizada usando a CLI do ONTAP se a política padrão para um relacionamento não for adequada. 
+summary: Você pode criar uma política de replicação personalizada se a política padrão para um relacionamento não for adequada. 
 ---
 = Crie uma política de replicação personalizada
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: Você pode criar uma política de replicação personalizada usando a C
 
 
 [role="lead"]
-Você pode usar uma política padrão ou personalizada ao criar uma relação de replicação usando a CLI do ONTAP. Para uma política de replicação unificada personalizada, você deve definir uma ou mais _regras_ para determinar quais cópias snapshot são transferidas durante a inicialização e atualização.
+Você pode usar uma política padrão ou personalizada ao criar uma relação de replicação. Para uma política de replicação unificada personalizada, você deve definir uma ou mais _regras_ para determinar quais cópias snapshot são transferidas durante a inicialização e atualização.
 
 Você pode criar uma política de replicação personalizada se a política padrão para um relacionamento não for adequada. Você pode querer compactar dados em uma transferência de rede, por exemplo, ou modificar o número de tentativas que o SnapMirror faz para transferir cópias snapshot.
 

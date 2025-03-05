@@ -1,7 +1,7 @@
 ---
 permalink: storage/task_snapmirror_create_an_endpoint.html 
 sidebar: sidebar 
-keywords: endpoints, create, snapmirror, ui 
+keywords: ontap, cli, endpoints, create, snapmirror, ui 
 summary: Você deve criar um ponto de extremidade do SnapMirror na IU do NetApp Element antes de criar um relacionamento. 
 ---
 = Crie um endpoint SnapMirror

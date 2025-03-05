@@ -1,7 +1,7 @@
 ---
 permalink: storage/task-element-replication-make-destination-volume-writeable.html 
 sidebar: sidebar 
-keywords: make, destination, volume, write 
+keywords: ontap, cli, make, destination, volume, write 
 summary: Você precisa fazer com que o volume de destino seja gravável antes de poder fornecer dados do volume para os clientes. Você pode usar o comando SnapMirror quiesce para interromper as transferências agendadas para o destino, o comando SnapMirror abort para parar as transferências contínuas e o comando SnapMirror Break para tornar o destino gravável. 
 ---
 = Torne o volume de destino gravável

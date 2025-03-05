@@ -105,7 +105,7 @@ Os sistemas que executam o elemento 10,1 e acima incluem código que pode se com
 
 A partir dos sistemas Element 10,3 e ONTAP 9.4, é possível replicar volumes originados do ONTAP para volumes de elementos em casos de uso específicos com funcionalidade limitada.
 
-Para obter mais informações, consulte a documentação do ONTAP.
+Para obter mais informações, link:../storage/element-replication-index.html["Executar replicação entre o software NetApp Element e o ONTAP (CLI do ONTAP)"]consulte .
 
 
 
