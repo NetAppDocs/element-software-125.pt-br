@@ -1674,10 +1674,6 @@
   <block id="65bd83537129be15c8027ec94bec5bd3" category="inline-xref-macro">Controle de acesso</block>
   <block id="4108d76cefab2b4494492fb5c706aa01" category="list-text"><block ref="4108d76cefab2b4494492fb5c706aa01" category="inline-xref-macro-rx"></block></block>
   <block id="c2c075d7ecfea2a1a630498ac1110e78" category="list-text"><block ref="c2c075d7ecfea2a1a630498ac1110e78" category="inline-xref-macro-rx"></block></block>
-  <block id="b0cda36836b6d8e27c36c8d9d6b48f3a" category="inline-link">Página de recursos de storage all-flash da SolidFire</block>
-  <block id="a980426853b5ccc1de52aeb0b0ae0463" category="list-text"><block ref="a980426853b5ccc1de52aeb0b0ae0463" category="inline-link-rx"></block></block>
-  <block id="d25459b3c5acd2943fae1e5fda4cfa22" category="inline-link">Centro de Documentação de Software SolidFire e Element</block>
-  <block id="024c22e90f2315636ed8d61b006ad1b5" category="list-text"><block ref="024c22e90f2315636ed8d61b006ad1b5" category="inline-link-rx"></block></block>
   <block id="62f0b25f98beb1882b9384da1aba8b58" category="summary">A IU da Web do software Element usa o método de amoraSpelrorRelacionship para interromper as transferências SnapMirror que foram iniciadas, mas ainda não estão completas.</block>
   <block id="02bd47d66c7a7a780788d9ff1bcef84a" category="paragraph">A IU da Web do software Element usa o<block ref="79f292fb9cc56e2d74c158d65c09ad27" prefix=" " category="inline-code"></block> método para interromper as transferências SnapMirror iniciadas, mas ainda não concluídas.</block>
   <block id="b1f147c909c66a76d992a27189b16c54" category="paragraph">SnapMirrorEndpointID</block>
@@ -5970,8 +5966,6 @@
   <block id="4195434d2c036cf973c32bdb4ac19828" category="paragraph">Usar os nós de storage fornecidos pelo NetApp e integrados ao software NetApp Element.</block>
   <block id="cc9d5c6e43509b7b512cd8106b62cef6" category="inline-link-macro">Visão geral da arquitetura de storage all-flash SolidFire</block>
   <block id="ce772989c5b639e2ddb875f41c132379" category="paragraph"><block ref="ce772989c5b639e2ddb875f41c132379" category="inline-link-macro-rx"></block></block>
-  <block id="e2291d0b9bc2d41bc343cf77cf0a1a87" category="inline-link">Visão geral do storage all-flash da SolidFire</block>
-  <block id="e2c85d417b263e570fcb0b7027cad0ba" category="list-text"><block ref="e2c85d417b263e570fcb0b7027cad0ba" category="inline-link-rx"></block></block>
   <block id="148da2fc8997120fa9c4ae723fb03eb1" category="summary">O Active IQ é uma ferramenta baseada na Web que fornece visualizações históricas continuamente atualizadas de dados em todo o cluster. Você pode configurar alertas para eventos, limites ou métricas específicos. Com o Active IQ, você monitora a performance e a capacidade do sistema, além de se manter informado sobre a integridade do cluster.</block>
   <block id="286e5e658aa2035edb6c87d9b36606aa" category="summary">Você pode gerenciar um sistema de storage SolidFire usando interfaces de software NetApp Element e utilitários de integração.</block>
   <block id="8899b6ed5385e8973e5fe00da2101ccd" category="doc">Interfaces de software SolidFire</block>
@@ -7949,8 +7943,6 @@
   <block id="88935f8e32d3f781d70b8758aacc2e03" category="paragraph">Você pode executar a solução de problemas básica de um nó que ainda não foi adicionado a um cluster. Você pode usar a conta do sistema sfradonly para esse fim com ou sem a ajuda do suporte da NetApp. Se você tiver um nó de gerenciamento configurado, poderá usá-lo para SSH e executar o script fornecido para essa tarefa.</block>
   <block id="39d7e3e1db072701b357f9d1235c66dc" category="list-text">A partir de uma máquina Windows, Linux ou Mac que tenha um cliente SSH instalado, execute o script apropriado para o seu sistema fornecido pelo suporte da NetApp.</block>
   <block id="326d0c521ea9c5fcd0fc04bacc22d618" category="list-text">SSH para o IP do nó:</block>
-  <block id="a83404b3b2ca8b3c39459b719d7844d7" category="inline-link">Página de recursos do NetApp HCI</block>
-  <block id="efb3497df51898324a04d1329dc9b9ae" category="list-text"><block ref="efb3497df51898324a04d1329dc9b9ae" category="inline-link-rx"></block></block>
   <block id="d40819e9e843e97335bf320aeb8d5ac1" category="summary">Você pode usar o nó de gerenciamento para habilitar o acesso ao suporte da NetApp para solução de problemas.</block>
   <block id="e606a329fd1c8e2f2543e5fd1dce6af5" category="doc">Inicie uma sessão remota de suporte do NetApp</block>
   <block id="6d76b07dcfce8c041eb64f1886c69449" category="paragraph">Se você precisar de suporte técnico para o seu sistema de storage all-flash SolidFire, o suporte NetApp pode se conetar remotamente ao seu sistema. Para iniciar uma sessão e obter acesso remoto, o suporte da NetApp pode abrir uma conexão SSH (Secure Shell) reversa ao seu ambiente.</block>
@@ -12294,4 +12286,6 @@
   <block id="bc0ffe4508f685d32386d4fcd929dd50" category="list-text">"HH:mm:ss"</block>
   <block id="99eb6e1c13e9ae0bb02e022566f20121" category="paragraph">Inclui o nome exclusivo dado ao agendamento, o período de retenção do instantâneo criado e o ID do volume do volume a partir do qual o instantâneo foi criado. Valores válidos:</block>
   <block id="65dc2083558f47cd1151751a12c24549" category="paragraph">flutuante ou inteiro dependendo do tipo de operação de sincronização</block>
+  <block id="ad0a505756223d68dc11afeae3459351" category="inline-link">NetApp HCI Documentação</block>
+  <block id="bf667c8802395357e4f080e2fcd819e4" category="list-text"><block ref="bf667c8802395357e4f080e2fcd819e4" category="inline-link-rx"></block></block>
 </blocks>
