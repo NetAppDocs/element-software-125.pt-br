@@ -17,7 +17,7 @@ Os detalhes de cada método de API podem ser encontrados no link:../api/index.ht
 
 . Crie uma nova configuração de provedor de identidade (IDP) de terceiros para o cluster chamando o seguinte método de API e passando os metadados IDP no formato JSON: `CreateIdpConfiguration`
 +
-Os metadados IDP, em formato de texto simples, são recuperados do IDP de terceiros. Esses metadados precisam ser validados para garantir que estejam formatados corretamente em JSON. Existem vários aplicativos de formatador JSON disponíveis que você pode usar, por exemplo:https://freeformatter.com/json-escape.html.
+Os metadados do IdP, em formato de texto simples, são obtidos do IdP de terceiro. Esses metadados precisam ser validados para garantir que estejam formatados corretamente em JSON. Existem diversos aplicativos de formatação JSON disponíveis que você pode usar, por exemplo: https://freeformatter.com/json-escape.html.
 
 . Recupere metadados de cluster, via spMetadataUrl, para copiar para o IDP de terceiros chamando o seguinte método API: `ListIdpConfigurations`
 +
@@ -39,6 +39,7 @@ NOTE: O nome de usuário do administrador do cluster IDP deve corresponder ao ma
 
 
 
+[[find-more-information]]
 == Encontre mais informações
 
 * https://docs.netapp.com/us-en/element-software/index.html["Documentação do software SolidFire e Element"]

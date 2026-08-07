@@ -65,6 +65,7 @@ Antes de seguir este procedimento, você deve ter uma compreensão link:../conce
 
 
 
+[[download-iso-or-ova-and-deploy-the-vm]]
 == Baixe ISO ou OVA e implante a VM
 
 . Transfira a OVA ou ISO para a sua instalação a partir da link:https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab["Software Element"^]página no site de suporte da NetApp.
@@ -111,6 +112,8 @@ NOTE: A instalação de um nó de gerenciamento usando a imagem pode resultar em
 
 
 
+[[create-the-management-node-admin-and-configure-the-network]]
+[[create_mnode_admin]]
 == Crie o administrador do nó de gerenciamento e configure a rede
 
 . Usando a interface do usuário de terminal (TUI), crie um usuário de administrador de nó de gerenciamento.
@@ -139,6 +142,7 @@ NOTE: Se você precisar de uma NIC adicional para isolar o tráfego de armazenam
 
 
 
+[[configure-time-sync]]
 == Configurar a sincronização da hora
 
 . Certifique-se de que o tempo é sincronizado entre o nó de gerenciamento e o cluster de armazenamento usando NTP:
@@ -216,6 +220,7 @@ NOTE: Não edite o NTP depois de concluir a configuração de sincronização de
 
 
 
+[[set-up-the-management-node]]
 == Configure o nó de gerenciamento
 
 . Configure e execute o comando de configuração do nó de gerenciamento:
@@ -279,6 +284,7 @@ NOTE: Use um nome de conta exclusivo para volumes persistentes que seja diferent
 
 
 
+[[configure-controller-assets]]
 == Configurar ativos do controlador
 
 . Localize a ID de instalação:
